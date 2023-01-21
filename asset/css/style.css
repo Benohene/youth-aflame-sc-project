@@ -76,12 +76,14 @@ header {
 /* cover text on welcome image */
 
 #cover-text {
-    font-size: 300%;
+    font-size: 320%;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
 
     background-color: rgba(234, 70, 0, 0.5);
+    box-shadow: 6px 6px 6px #ddd;
+    
 
     letter-spacing: 1px;
     color: #ffffff;
@@ -91,13 +93,10 @@ header {
     height: auto;
 
     padding: 10px;
-    min margin-left: 30%;
+    margin-left: 30%;
     margin-bottom: 30px;
 
     bottom: 10px;
     
-
-
-
    position: absolute;
 }
