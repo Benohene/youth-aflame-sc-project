@@ -12,11 +12,11 @@ body {
     color: #000;
 }
 
-/* Style the header */#
+/* Style the header */
 header {
     width: 100%;
     height: 70px;
-    background-color: rgb(148, 29, 29);
+    background-color: #ddd;
 }
 
 #logo {
@@ -50,4 +50,25 @@ header {
 
 .menu-active {
     border-bottom: 2px solid #ea4600;
+}
+
+/* Add styles to Welcome/Hero section with text */
+
+#welcome-section {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#welcome-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/welcome-img.jpg'); no-repeat; center; center;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
