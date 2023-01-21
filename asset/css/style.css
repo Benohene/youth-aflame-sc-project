@@ -66,9 +66,38 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/welcome-img.jpg'); no-repeat; center; center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/welcome-img.jpg');
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* cover text on welcome image */
+
+#cover-text {
+    font-size: 300%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: rgba(234, 70, 0, 0.5);
+
+    letter-spacing: 1px;
+    color: #ffffff;
+    line-height: 50px;
+
+    min-width: 40%;
+    height: auto;
+
+    padding: 10px;
+    min margin-left: 30%;
+    margin-bottom: 30px;
+
+    bottom: 10px;
+    
+
+
+
+   position: absolute;
 }
