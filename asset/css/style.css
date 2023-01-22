@@ -104,7 +104,8 @@ header {
 /* Add About us secction */
 #about-us {
     width: 100%;
-    min-height: 400px;
+    min-height: 300px;
+    background-color: rgb(221, 221, 221, 70%);
 }
 
 #about-us h2 {
@@ -167,3 +168,15 @@ header {
     margin-bottom: 50px;
     text-align: center;
  }
+
+ hr {
+    border: 1px solid #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#hr-mission {
+    border: 1px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
