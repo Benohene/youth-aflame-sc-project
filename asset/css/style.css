@@ -180,3 +180,22 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+/* Add styles to Activities section */
+
+#activities {
+    width: 100%;
+    height: auto;
+    background-color: rgb(234, 70, 0, 40%);
+    padding: 10px;
+}
+
+#activities-header {
+    background-color: #000;
+    font-size: 150%;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 40%
+}
