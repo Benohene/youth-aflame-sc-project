@@ -275,7 +275,7 @@ footer h3 {
 
 #map-forms {
     width: 100%;
-    height: 800px;
+    min-height: 800px;
     align-items: center;
 
 }
@@ -284,7 +284,7 @@ footer h3 {
     width: 80%;
     height: auto;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
@@ -379,8 +379,8 @@ input[type=submit] {
     text-align: center;
     line-height: 30px;
     font-size: 140%;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     letter-spacing: 2px;
     background-color: rgb(234, 70, 0, 20%);
   }
