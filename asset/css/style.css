@@ -219,6 +219,53 @@ header {
     padding: 40px 0 0 10px;
     text-align: center;
     border: 2px solid white;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
+}
+
+/* Add styles to footer */
+
+footer {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    background-color: #dddddd;
+    clear: both;
+    position: relative;
+    line-height: 30px;
+
+    text-align: center;
+}
+
+footer h3 {
+    color: #ea4600;
+}
+
+.footer-header2 {
+    color: #000;
+}
+
+.footer-links > li {
+    display: inline;
+}
+
+.footer-links i {
+    font-size: 160%;
+    margin: 10px;
+}
+
+/*Social links color*/
+.fa-facebook {
+    color: #0066ff;
+}
+
+.fa-twitter-square {
+    color: #00acee;
+}
+
+.fa-youtube-square {
+    color: #ff0000;
+}
+
+.fa-instagram {
+    color:  #962fbf;
 }
