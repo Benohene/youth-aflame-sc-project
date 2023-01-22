@@ -188,7 +188,7 @@ header {
     width: 100%;
     height: 500px;
     background-color: rgb(234, 70, 0, 40%);
-    padding: 10px;
+    padding-top: 10px;
 }
 
 #activities-header {
