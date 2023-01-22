@@ -369,3 +369,24 @@ input[type=submit] {
     color: #000;
     font-size: medium;
   }
+
+  /*Contact details*/
+
+  #contact-details {
+    width: 100%;
+    height: 250px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 140%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    background-color: rgb(234, 70, 0, 20%);
+  }
+
+  #contact-details h3 {
+    color: #ea4600;
+    text-decoration: underline;
+    padding-top: 20px;
+  }
