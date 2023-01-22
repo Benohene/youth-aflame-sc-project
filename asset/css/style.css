@@ -390,3 +390,68 @@ input[type=submit] {
     text-decoration: underline;
     padding-top: 20px;
   }
+
+
+  /* Add styles to Sign Up page*/
+  .join-us {
+    clear: left;
+    background: url(../images/sign-up.jpg) no-repeat center center;
+    background-size: cover;
+    height: 1200px;
+  }
+
+  .sign-up {
+    margin:150px 10% 0 0;
+    color:#fff;
+    background-color:rgba(60, 60, 60, 0.8);
+    max-width:400px;
+    position: absolute;
+    right:5%;
+    padding:30px;
+}
+
+.sign-up h2 {
+    color:#fafafa;
+    margin-bottom:20px;
+}
+
+.signup-txt {
+    background:transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px;
+    border:1px solid #fafafa;
+    border-radius:2px;
+}
+
+.signup-txt:hover {
+    border-color:#ea4600;
+}
+
+.signup-button {
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color:#ea4600;
+    color:#fafafa;
+    display:block;
+}
+
+.signup-button:hover {
+    background-color:#fafafa;
+    color:#f16c6b;
+}
+
+.sign-up input::placeholder {
+    color: #ffffff;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+
+.membership {
+    margin-right: 15px;
+}
+
