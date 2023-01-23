@@ -407,6 +407,39 @@ input[type=submit] {
     margin-right: 15px;
 }
 
+#thank-you {
+    width: 100%;
+    height: 1200px;
+    background: url(../images/thank-you-contact.jpg) no-repeat center center;
+    background-size: cover
+}
+
+#thankyou-text {
+    font-size: 320%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: rgba(234, 70, 0, 0.5);
+    box-shadow: 6px 6px 6px #ddd;
+    
+
+    letter-spacing: 1px;
+    color: #ffffff;
+    line-height: 50px;
+
+    max-width: 50%;
+    height: auto;
+
+    padding: 10px;
+    margin-left: 30%;
+    margin-bottom: 30px;
+
+
+    bottom: 10px;
+    
+   position: absolute;
+}
 /* Media Queries*/
 
 /* For screens from 1285px - 1200px wide and down*/
@@ -441,6 +474,11 @@ input[type=submit] {
         width: 90%;
         height: 100px;
     }
+
+    #thankyou-text {
+        font-size: 200%;
+    }
+
 }
 
 
@@ -458,5 +496,8 @@ input[type=submit] {
         margin-bottom: 20px;
         line-height: 25px;
         }
-
+    
+        #thankyou-text {
+            font-size: 180%;
+        }
 }
