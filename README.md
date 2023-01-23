@@ -7,4 +7,6 @@ for one common mission and goal. Youth Aflame Social Club was established in 202
 within the community. We target young people between the ages of 13-25 years. It is a very interactive
 group that helps in the good upbringing of young people. This Website is set up to help advertise the 
 group and allow people to get information and sign up for the group.
-View the live site [here](web address)
+View the live site [here](https://benohene.github.io/youth-aflame-sc-project/)
+
+![Mockup](https://github.com/Benohene/youth-aflame-sc-project/blob/main/asset/readme-images/12-mockup.jpg)
