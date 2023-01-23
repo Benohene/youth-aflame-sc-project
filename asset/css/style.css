@@ -21,7 +21,7 @@ header {
 
 #logo {
     width: 200px;
-    height: 50ox;
+    height: 50px;
     float: left;
     margin: 10px;
 }
@@ -273,7 +273,6 @@ footer h3 {
     width: 70%;
     height: 20px;
     font-family: 'Montserrat', sans-serif;
-    columns: #000;
     border: 1px solid #bcbcbc;
     border-radius: 50px;
     outline: none;
@@ -286,7 +285,6 @@ footer h3 {
     width: 70%;
     height: 100px;
     font-family: 'Montserrat', sans-serif;
-    columns: #000;
     border: 1px solid #bcbcbc;
     border-radius: 20px;
     outline: none;
@@ -487,6 +485,7 @@ input[type=submit] {
 #cover-text {
     font-size: 250%;
 }
+}
 
 @media screen and (max-width: 1200px) {
     #activities > div {
@@ -545,5 +544,5 @@ input[type=submit] {
             font-size: 200%;
             line-height: 30px;
             max-width: 110%;
-        }
+        } 
 }
