@@ -102,83 +102,28 @@ header {
 }
 
 /* Add About us secction */
+
 #about-us {
-    width: 100%;
-    min-height: 300px;
-    background-color: rgb(221, 221, 221, 70%);
-}
-
-#about-us h2 {
+    width: 80%;
+    min-height: 350px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 200%;
-}
-
-#about-us-left {
-    width: 30%;
-    height: 150px;
-    background-color: #ea4600;
-    padding: 20px;
-    float: left;
-    color: #ffffff;
-}
-
-#goal-right {
-    width: 30%;
-    height: 150px;
-    background-color: #ea4600;
-    padding: 20px;
-    float: right;
-    color: #ffffff;
-}
-
-#mission-center {
-    width: 30%;
     margin: 0 auto;
-    background-color: rgb(146, 146, 146, 30%);
-    color: #000000
+    padding-top: 30px;
 }
 
-
- #about-us-left-details {   
-    width: 100%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    text-align: right;
- }
-
- #goal-right-details {   
-    width: 100%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    text-align: left;
- }
-
- #mission-center-details {   
-    width: 100%;
-    height: 150px;
-    line-height: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 50px;
-    text-align: center;
- }
-
- hr {
-    border: 1px solid #ffffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#about-us-main {
+    margin-top: 20px;
 }
 
-#hr-mission {
-    border: 1px solid #000000;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#goal {
+    margin-top: 20px;
+}
+
+#mission {
+    margin-top: 20px;
+}
+#about-us h2 {
+    color: #ea4600;
 }
 
 
@@ -455,3 +400,20 @@ input[type=submit] {
     margin-right: 15px;
 }
 
+/* Media Queries*/
+
+/* For screens from 1200px wide and down*/
+
+@media screen and (max-width: 1200px) {
+    #activities > div {
+        width: 	100%;
+        clear:both;
+        height: 200px;
+        padding: 10px;
+    }
+   
+    #about-us {
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
