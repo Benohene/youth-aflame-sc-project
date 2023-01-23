@@ -67,7 +67,7 @@ header {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/welcome-img.jpg');
-    height: 100%; 
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +83,7 @@ header {
 
     background-color: rgba(234, 70, 0, 0.5);
     box-shadow: 6px 6px 6px #ddd;
-    
+
 
     letter-spacing: 1px;
     color: #ffffff;
@@ -98,8 +98,8 @@ header {
 
 
     bottom: 10px;
-    
-   position: absolute;
+
+    position: absolute;
 }
 
 /* Add About us secction */
@@ -123,14 +123,15 @@ header {
 #mission {
     margin-top: 20px;
 }
-#about-us h2 {
-    font-size: 180%;
+
+#about-us h1 {
+    font-size: 200%;
     color: #ea4600;
 }
 
 hr {
     border: 2px solid #ea4600;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -145,6 +146,7 @@ hr {
 
 #activities-header {
     background-color: #000;
+    width: 150px;
     font-size: 150%;
     color: #ffffff;
     text-align: center;
@@ -153,10 +155,21 @@ hr {
 }
 
 /* Add background images to the individual activities*/
-.study { background: url(../images/study-aact.jpg) no-repeat center center;}
-.fitness { background: url(../images/keepfit-act.jpg) no-repeat center center;}
-.sport { background: url(../images/sport-act.jpg) no-repeat center center;}
-.get-together { background: url(../images/get-together-act.jpg) no-repeat center center;}
+.study {
+    background: url(../images/study-aact.jpg) no-repeat center center;
+}
+
+.fitness {
+    background: url(../images/keepfit-act.jpg) no-repeat center center;
+}
+
+.sport {
+    background: url(../images/sport-act.jpg) no-repeat center center;
+}
+
+.get-together {
+    background: url(../images/get-together-act.jpg) no-repeat center center;
+}
 
 /*Activities background images properties*/
 #activities div {
@@ -166,12 +179,12 @@ hr {
     background-size: cover;
     background-blend-mode: overlay;
     width: 25%;
-    height: 400px; 
+    height: 400px;
     float: left;
     padding: 40px 0 0 10px;
     text-align: center;
     border: 2px solid white;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 /* Add styles to footer */
@@ -196,7 +209,7 @@ footer h3 {
     color: #000;
 }
 
-.footer-links > li {
+.footer-links>li {
     display: inline;
 }
 
@@ -219,7 +232,7 @@ footer h3 {
 }
 
 .fa-instagram {
-    color:  #962fbf;
+    color: #962fbf;
 }
 
 
@@ -277,8 +290,8 @@ footer h3 {
     border-radius: 50px;
     outline: none;
     margin-bottom: 10px;
-    padding: 10px; 
-    font-size: 20px;   
+    padding: 10px;
+    font-size: 20px;
 }
 
 .contact-form-txtarea {
@@ -289,8 +302,8 @@ footer h3 {
     border-radius: 20px;
     outline: none;
     margin-bottom: 10px;
-    padding: 10px;  
-    font-size: 20px;  
+    padding: 10px;
+    font-size: 20px;
 }
 
 input[type=submit] {
@@ -303,26 +316,26 @@ input[type=submit] {
     width: 50%;
     font-size: 17px;
     font-weight: bold;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #702302;
     color: #dddddd;
-  }
+}
 
-  .contact-form-txt::placeholder {
+.contact-form-txt::placeholder {
     color: #000;
     font-size: medium;
-  }
+}
 
-  .contact-form-txtarea::placeholder {
+.contact-form-txtarea::placeholder {
     color: #000;
     font-size: medium;
-  }
+}
 
-  /*Contact details*/
+/*Contact details*/
 
-  #contact-details {
+#contact-details {
     width: 100%;
     height: 250px;
     font-family: 'Lato', sans-serif;
@@ -333,66 +346,66 @@ input[type=submit] {
     margin-bottom: 20px;
     letter-spacing: 2px;
     background-color: rgb(234, 70, 0, 20%);
-  }
+}
 
-  #contact-details h3 {
+#contact-details h3 {
     color: #ea4600;
     text-decoration: underline;
     padding-top: 20px;
-  }
+}
 
 
-  /* Add styles to Sign Up page*/
-  .join-us {
+/* Add styles to Sign Up page*/
+.join-us {
     clear: left;
     background: url(../images/sign-up.jpg) no-repeat center center;
     background-size: cover;
     height: 1200px;
-  }
+}
 
-  .sign-up {
-    margin:150px 10% 0 0;
-    color:#fff;
-    background-color:rgba(60, 60, 60, 0.8);
-    max-width:400px;
+.sign-up {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.8);
+    max-width: 400px;
     position: absolute;
-    right:5%;
-    padding:30px;
+    right: 5%;
+    padding: 30px;
 }
 
 .sign-up h2 {
-    color:#fafafa;
-    margin-bottom:20px;
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 .signup-txt {
-    background:transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px;
-    border:1px solid #fafafa;
-    border-radius:2px;
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 .signup-txt:hover {
-    border-color:#ea4600;
+    border-color: #ea4600;
 }
 
 .signup-button {
-    margin-top:20px;
-    border-radius:2px;
-    padding:15px 32px 15px 32px;
-    text-align:center;
-    font-size:100%;
-    background-color:#ea4600;
-    color:#fafafa;
-    display:block;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #ea4600;
+    color: #fafafa;
+    display: block;
 }
 
 .signup-button:hover {
-    background-color:#fafafa;
-    color:#f16c6b;
+    background-color: #fafafa;
+    color: #f16c6b;
 }
 
 .sign-up input::placeholder {
@@ -421,7 +434,7 @@ input[type=submit] {
 
     background-color: rgba(234, 70, 0, 0.5);
     box-shadow: 6px 6px 6px #ddd;
-    
+
 
     letter-spacing: 1px;
     color: #ffffff;
@@ -436,8 +449,8 @@ input[type=submit] {
 
 
     bottom: 10px;
-    
-   position: absolute;
+
+    position: absolute;
 }
 
 /* Add congrats for signing up page */
@@ -457,7 +470,7 @@ input[type=submit] {
 
     background-color: rgba(234, 70, 0, 0.5);
     box-shadow: 6px 6px 6px #ddd;
-    
+
 
     letter-spacing: 1px;
     color: #ffffff;
@@ -473,8 +486,8 @@ input[type=submit] {
 
     bottom: 50px;
     right: 50px;
-    
-   position: absolute;
+
+    position: absolute;
 }
 
 
@@ -482,19 +495,19 @@ input[type=submit] {
 
 /* For screens from 1285px - 1200px wide and down*/
 @media screen and (max-width: 1285px) {
-#cover-text {
-    font-size: 250%;
-}
+    #cover-text {
+        font-size: 250%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
-    #activities > div {
-        width: 	100%;
-        clear:both;
+    #activities>div {
+        width: 100%;
+        clear: both;
         height: 200px;
         padding: 10px;
     }
-   
+
     #about-us {
         height: auto;
         margin-bottom: 30px;
@@ -526,7 +539,7 @@ input[type=submit] {
     #cover-text {
         font-size: 180%;
         line-height: 30px;
-    } 
+    }
 
     #menu {
         clear: left;
@@ -534,15 +547,15 @@ input[type=submit] {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-        }
-    
-        #thankyou-text {
-            font-size: 180%;
-        }
+    }
 
-        #congrats-text {
-            font-size: 200%;
-            line-height: 30px;
-            max-width: 110%;
-        } 
+    #thankyou-text {
+        font-size: 180%;
+    }
+
+    #congrats-text {
+        font-size: 200%;
+        line-height: 30px;
+        max-width: 110%;
+    }
 }
