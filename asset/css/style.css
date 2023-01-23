@@ -89,12 +89,13 @@ header {
     color: #ffffff;
     line-height: 50px;
 
-    min-width: 40%;
+    max-width: 50%;
     height: auto;
 
     padding: 10px;
     margin-left: 30%;
     margin-bottom: 30px;
+
 
     bottom: 10px;
     
@@ -409,6 +410,10 @@ input[type=submit] {
 /* Media Queries*/
 
 /* For screens from 1200px wide and down*/
+@media screen and (max-width: 1285px) {
+#cover-text {
+    font-size: 250%;
+}
 
 @media screen and (max-width: 1200px) {
     #activities > div {
@@ -422,4 +427,16 @@ input[type=submit] {
         height: auto;
         margin-bottom: 30px;
     }
+
+    #cover-text {
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #cover-text {
+        font-size: 180%;
+        line-height: 30px;
+
+    } 
 }
