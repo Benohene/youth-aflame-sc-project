@@ -270,7 +270,7 @@ footer h3 {
 }
 
 .contact-form-txt {
-    width: 60%;
+    width: 70%;
     height: 20px;
     font-family: 'Montserrat', sans-serif;
     columns: #000;
@@ -283,7 +283,7 @@ footer h3 {
 }
 
 .contact-form-txtarea {
-    width: 60%;
+    width: 70%;
     height: 100px;
     font-family: 'Montserrat', sans-serif;
     columns: #000;
@@ -409,7 +409,7 @@ input[type=submit] {
 
 /* Media Queries*/
 
-/* For screens from 1200px wide and down*/
+/* For screens from 1285px - 1200px wide and down*/
 @media screen and (max-width: 1285px) {
 #cover-text {
     font-size: 250%;
@@ -431,8 +431,20 @@ input[type=submit] {
     #cover-text {
         font-size: 250%;
     }
+
+    .contact-form-txt {
+        width: 90%;
+        height: 20px;
+    }
+
+    .contact-form-txtarea {
+        width: 90%;
+        height: 100px;
+    }
 }
 
+
+/* For medium screens from 820px wide and down*/
 @media screen and (max-width: 820px) {
     #cover-text {
         font-size: 180%;
@@ -446,5 +458,5 @@ input[type=submit] {
         margin-bottom: 20px;
         line-height: 25px;
         }
-    }
+
 }
