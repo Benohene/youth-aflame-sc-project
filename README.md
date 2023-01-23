@@ -37,7 +37,7 @@ View the live site [here](https://benohene.github.io/youth-aflame-sc-project/)
 * This section gives information about the Social group highlighting the mission and goals of the group.
 * This information lets the user know what the site is about and also why you must sign up and be part of the group.
 
-![About Us](/workspace/youth-aflame-sc-project/asset/readme-images/about us.jpg)
+![About Us](https://github.com/Benohene/youth-aflame-sc-project/blob/c05997fd0099f75f180ea8ad981dfeb5072d2c64/asset/readme-images/about us.jpg)
 
 ### Activities Section
 * This section has four different images corresponding to the activities we have during our meeting times.
