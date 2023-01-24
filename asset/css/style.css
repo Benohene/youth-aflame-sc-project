@@ -349,7 +349,7 @@ input[type=submit]:hover {
 }
 
 #contact-details h2 {
-    color: #ea4600;  
+    color: #ea4600;
     padding-top: 20px;
 }
 
@@ -450,14 +450,14 @@ fieldset {
     padding-bottom: 10px;
 }
 
-fieldset > legend {
+fieldset>legend {
     margin-left: 5px;
 }
 
 .membership {
     margin-right: 15px;
     margin-top: 10px;
-    
+
 }
 
 
@@ -574,5 +574,18 @@ fieldset > legend {
         min-width: 70%;
         margin: 50px;
         line-height: normal;
+    }
+}
+
+/* For small screens from 400px wide and down*/
+
+@media screen and (max-width: 400px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 3px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: medium;
     }
 }
