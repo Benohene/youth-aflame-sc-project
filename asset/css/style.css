@@ -146,7 +146,7 @@ hr {
 
 #activities-header {
     background-color: #000;
-    width: 150px;
+
     font-size: 150%;
     color: #ffffff;
     text-align: center;
@@ -307,7 +307,7 @@ footer h3 {
 }
 
 input[type=submit] {
-    background-color: #ea4600;
+    background-color: #702302;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -319,7 +319,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #702302;
+    background-color: #ea4600;
     color: #dddddd;
 }
 
@@ -547,6 +547,11 @@ input[type=submit]:hover {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #activities-header {
+        min-width: 130px;
+        margin: 10px 30%;
     }
 
     #thankyou-text {
