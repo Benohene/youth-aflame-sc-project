@@ -444,8 +444,20 @@ input[type=submit]:hover {
     opacity: 0.5;
 }
 
+fieldset {
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+fieldset > legend {
+    margin-left: 5px;
+}
+
 .membership {
     margin-right: 15px;
+    margin-top: 10px;
+    
 }
 
 
