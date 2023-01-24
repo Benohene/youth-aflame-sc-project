@@ -163,3 +163,22 @@ The website has been thoroughly tested. All the code has been run through the W3
 
 ### Sign Up page (BEFORE AND AFTER)
 ![Error](docs/testing/5sigg-up-error.jpg)![Fixed](docs/testing/6sigg-up-errorfixed.jpg)
+
+## Lighthouse Test
+
+The site was also tested using the lighthouse option built in Dev Tools in Chrome. It was used to check the following features:
+
+* Performance - How the page performs whilst loading on the browser
+* Accessibility - Is the site acccessible for all users and how can it be improved.
+* Best Practices - Site conforms to industry best practices.
+* SEO - Search engine optimization. Is the site optimized for search engine result rankings.
+
+The result was quiet good. The testing was done one all the pages both on desktop and mobile devices. Below are some sample screenshot;
+### On Mobile
+![Mobile option for Sign Up page](docs/testing/lighthouse-desktop.jpg)
+### Home page
+![Lighthouse test on Home Page](docs/testing/lighthouse-index-page.jpg)
+### Contact page
+![Lighthouse test on Contact Page](docs/testing/lighthouse-contact-page.jpg)
+### Sign Up page
+![Lighthouse test on Sign Up Page](docs/testing/lighthouse-signup-page.jpg)
