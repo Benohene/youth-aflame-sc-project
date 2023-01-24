@@ -220,4 +220,31 @@ Users should be redirected to a welcome page confirming their data for registrat
 All input areas are ***required*** to be filled before the form sending can be successful.
 
 # DEPLOYMENT
+The site was created using the Gitpod and pushed to github to the remote repository.
 
+***Gitpod is an open source developer platform automating the provisioning of ready-to-code developer environments.***
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add .``` - This command was used to add all updated file(s) to the staging area.
+
+```git commit -m “commit message”``` - This command was used to commit changes from the staging area to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on Git Hub so it is safe and secure.
+
+### Deployment to GitHub Pages
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+1. In the GitHub repository, navigate to the Settings tab 
+
+2. From the menu on left select 'Pages'
+
+3. From the source section drop-down menu, select the Branch: main
+
+4. Click 'Save'
+
+5. A live link will be displayed in blue when published successfully.
+
+![Deployment to GitHub pages](docs/readme-images/10-deployment.jpg)
+
+The Live link can be access by [Clicking Here-Youth Aflame Social Club](https://benohene.github.io/youth-aflame-sc-project/)
