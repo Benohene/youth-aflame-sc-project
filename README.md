@@ -101,10 +101,48 @@ View the live site [here](https://benohene.github.io/youth-aflame-sc-project/)
 ## Wireframe
 
 ## Homepage
-![Activities Section](docs/readme-images/home-wireframenew.png)
+![Home page](docs/readme-images/home-wireframenew.png)
 
 ## Contact Page
-![Activities Section](docs/readme-images/contaact-witeframe.png)
+![Contact page](docs/readme-images/contaact-witeframe.png)
 
 ## Sign-up page 
-![Activities Section](docs/readme-images/signup-wireframe.png)
+![Sign up page](docs/readme-images/signup-wireframe.png)
+
+# TECHNOLOGIES APPLIED
+
+* HTML - The structure of the Website was developed using HTML as the main language.
+
+* CSS - The Website was styled using custom CSS in an external file.
+
+* GitHub - The source code is hosted on GitHub and deployed using Git Pages.
+
+* Git - Used to commit and push code during the development of the Website
+
+* Font Awesome - Provides icons used to structures and give details in HTML https://fontawesome.com/ 
+
+* Photoshop - Used to create wireframes and also edit pictures and logo
+
+# TESTING
+## Structure and Styling
+During testing, the Unicorn Revealer and Wave were used to check for structure and styling error and all were fixed accordingly. All pages were run by the Unicorn revealer and Wave to fix errors.
+
+### Unicorn revealer
+![Unicorn Revealer](docs/readme-images/unicorn-test.jpg)
+
+### Wave
+![Wave](docs/readme-images/wave-test.jpg)
+
+## Responsiveness
+
+## Coding
+The website has been thoroughly tested. All the code has been run through the W3C HTML Validator and the W3C CSS Validator. Some errors were initially detected and fixed
+
+### Home page (BEFORE AND AFTER)
+![Error](docs/testing/1index-html-error.jpg)![Fixed](docs/testing/2index-html-errorfix.jpg)
+
+### Contact page (BEFORE AND AFTER)
+![Error](docs/testing/3map-contact-page.jpg)![Fixed](docs/testing/4map-contact-pagefixed.jpg)
+
+### Sign Up page (BEFORE AND AFTER)
+![Error](docs/testing/5sigg-up-error.jpg)![Fixed](docs/testing/6sigg-up-errorfixed.jpg)
