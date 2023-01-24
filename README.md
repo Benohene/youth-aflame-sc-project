@@ -248,3 +248,32 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ![Deployment to GitHub pages](docs/readme-images/10-deployment.jpg)
 
 The Live link can be access by [Clicking Here-Youth Aflame Social Club](https://benohene.github.io/youth-aflame-sc-project/)
+
+## Clone the Repository Code Locally
+* Navigate to the GitHub Repository you want to clone to use locally:
+
+1. Click on the code drop down button
+
+2. Click on HTTPS
+
+3. Copy the repository link to the clipboard
+
+4. Open your IDE of choice (git must be installed for the next steps)
+
+5. Type git clone copied-git-url into the IDE terminal
+
+***The project will now of been cloned on your local machine for use.***
+
+# CREDIT
+
+## Content
+* [Font Awesome](https://fontawesome.com/). Used for icons.
+* [Google Fonts](https://fonts.google.com/) Used for fonts.
+* [Google Maps](https://www.google.com/maps) Used for maps.
+* Love Running project-Some codes were generated from there.
+* [YouTube](http://youtube.com/)The coding of the contact page forms was inspired by a video on Youtube.
+
+## Media
+* All images from [Pexels](https://www.pexels.com/).
+* Logo was created by me using photoshop.
+* Most of the images were edited by me with photoshop.
