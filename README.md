@@ -182,3 +182,42 @@ The result was quiet good. The testing was done one all the pages both on deskto
 ![Lighthouse test on Contact Page](docs/testing/lighthouse-contact-page.jpg)
 ### Sign Up page
 ![Lighthouse test on Sign Up Page](docs/testing/lighthouse-signup-page.jpg)
+
+## Form Testing
+
+The form on the contact page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input.
+
+
+### Contact Form Testing
+Steps to test:
+
+Navigate to the Youth Aflame Social Club Contact page
+Scroll down to the contact form and input the following data:
+1. First Name: Benjamin
+2. Last Name: Wilson
+3. Email: bwilason@yasc.de
+4. Message: Write the details of your message
+5. Click SEND
+
+User should be redirected to a thank you page confirming your message has been sent successfully.
+
+All input areas are ***required*** to be filled before the form send ing can be successful.
+
+
+### Sign-Up From Testing
+
+Steps to test:
+
+Navigate to the Youth Aflame Social Club Sign-Up page
+Scroll down to the contact form and input the following data:
+1. First Name: Benjamin
+2. Last Name: Wilson
+3. Email: bwilason@yasc.de
+4. Click JOIN US
+
+Users should be redirected to a welcome page confirming their data for registration has been sent successfully.
+
+All input areas are ***required*** to be filled before the form sending can be successful.
+
+# DEPLOYMENT
+
