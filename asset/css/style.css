@@ -349,9 +349,39 @@ input[type=submit]:hover {
 }
 
 #contact-details h2 {
-    color: #ea4600;
-   
+    color: #ea4600;  
     padding-top: 20px;
+}
+
+/* Add Thank you page for contact forms*/
+#thank-you {
+    width: 100%;
+    height: 1200px;
+    background: url(../images/thank-you-contact.jpg) no-repeat center center;
+    background-size: cover
+}
+
+#thankyou-text {
+    font-size: 180%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: rgba(234, 70, 0, 0.5);
+    box-shadow: 6px 6px 6px #ddd;
+
+    letter-spacing: 1px;
+    color: #ffffff;
+    line-height: 50px;
+
+    max-width: 50%;
+    height: auto;
+
+    padding: 10px;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    bottom: 10px;
+    position: absolute;
 }
 
 
@@ -418,40 +448,6 @@ input[type=submit]:hover {
     margin-right: 15px;
 }
 
-/* Add Thank you page for contact forms*/
-#thank-you {
-    width: 100%;
-    height: 1200px;
-    background: url(../images/thank-you-contact.jpg) no-repeat center center;
-    background-size: cover
-}
-
-#thankyou-text {
-    font-size: 320%;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-
-    background-color: rgba(234, 70, 0, 0.5);
-    box-shadow: 6px 6px 6px #ddd;
-
-
-    letter-spacing: 1px;
-    color: #ffffff;
-    line-height: 50px;
-
-    max-width: 50%;
-    height: auto;
-
-    padding: 10px;
-    margin-left: 30%;
-    margin-bottom: 30px;
-
-
-    bottom: 10px;
-
-    position: absolute;
-}
 
 /* Add congrats for signing up page */
 
@@ -555,7 +551,10 @@ input[type=submit]:hover {
     }
 
     #thankyou-text {
-        font-size: 180%;
+        font-size: 150%;
+        min-width: 70%;
+        margin: 50px;
+        line-height: normal;
     }
 
     #congrats-text {
