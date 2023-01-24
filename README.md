@@ -130,10 +130,27 @@ During testing, the Unicorn Revealer and Wave were used to check for structure a
 ### Unicorn revealer
 ![Unicorn Revealer](docs/readme-images/unicorn-test.jpg)
 
-### Wave
+### Wave Web Accessibility
 ![Wave](docs/readme-images/wave-test.jpg)
 
+* The Wave Web Accessibility help to make sure that all the necessary HTML attributes are used well without errors.
+
+* It was also used to check for color contrast.
+
+
+
 ## Responsiveness
+The Website has been tested and it passed responsiveness for small mediumum and large screens of various devicesce. Ali pagesge have been tested for with a device size of 380px.
+
+The Responsive design was tested manually with [Chrome DevTools](https://developer.chrome.com/docs/devtools/) and also the Microsoft Dev tools. The Website worked perfectly well.
+
+The Website pass its responsiveness and no responsive issues were seen on the following trial device:
+* iPhone SE
+* iPhone 12 Pro
+* Samsung Galaxy S20/S20 Ultra
+* Surface Duo
+
+The Website was also tested on [Media Genesis Responsive Checker](https://www.responsivedesignchecker.com/) on various device and the expected result was acheived.
 
 ## Coding
 The website has been thoroughly tested. All the code has been run through the W3C HTML Validator and the W3C CSS Validator. Some errors were initially detected and fixed
