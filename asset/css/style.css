@@ -471,7 +471,7 @@ fieldset > legend {
 }
 
 #congrats-text {
-    font-size: 320%;
+    font-size: 200%;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -570,8 +570,9 @@ fieldset > legend {
     }
 
     #congrats-text {
-        font-size: 200%;
-        line-height: 30px;
-        max-width: 110%;
+        font-size: 140%;
+        min-width: 70%;
+        margin: 50px;
+        line-height: normal;
     }
 }
