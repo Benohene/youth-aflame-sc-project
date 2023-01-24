@@ -276,10 +276,10 @@ footer h3 {
     align-items: center;
 }
 
-#contact-form h3 {
+#contact-form h1 {
     margin-bottom: 15px;
     font-size: 150%;
-    color: #000000;
+    color: #702302;
 }
 
 .contact-form-txt {
@@ -348,9 +348,9 @@ input[type=submit]:hover {
     background-color: rgb(234, 70, 0, 20%);
 }
 
-#contact-details h3 {
+#contact-details h2 {
     color: #ea4600;
-    text-decoration: underline;
+   
     padding-top: 20px;
 }
 
