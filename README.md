@@ -49,7 +49,7 @@ View the live site [here](https://benohene.github.io/youth-aflame-sc-project/)
 ### Footer
 * The Footer section of the page includes a heading that directs visitors to our social media links.
 * You can also have quick access to our contact details like telephone number and Email Address
-* the footer runs across all the 3 pages and is also responsive to all device sizes
+* The footer runs across all the 3 pages and is also responsive to all device sizes
 
 ![Footer](docs/readme-images/footer.jpg)
 
@@ -141,7 +141,7 @@ During testing, the Unicorn Revealer and Wave were used to check for structure a
 
 
 ## Responsiveness
-The Website has been tested and it passed responsiveness for small mediumum and large screens of various devicesce. Ali pagesge have been tested for with a device size of 380px.
+The Website has been tested and it passed responsiveness for small mediumum and large screens of various devicesce. Ali pagesge have been tested for with a device size of 350px.
 
 The Responsive design was tested manually with [Chrome DevTools](https://developer.chrome.com/docs/devtools/) and also the Microsoft Dev tools. The Website worked perfectly well.
 

@@ -583,9 +583,14 @@ fieldset>legend {
     #menu {
         clear: left;
         float: left;
-        margin-left: 3px;
+        margin-left: 1px;
         margin-bottom: 20px;
         line-height: 25px;
         font-size: medium;
+    }
+
+    #cover-text {
+        font-size: 150%;
+        line-height: 25px;
     }
 }
