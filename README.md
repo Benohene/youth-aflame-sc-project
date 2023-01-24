@@ -24,6 +24,7 @@ View the live site [here](https://benohene.github.io/youth-aflame-sc-project/)
 ### Navigation Menu
 * Contains the various links to all three pages within the website. that is Home, Contact and Signup.
 * This will allow users smooth and easy access to all the pages and it is also responsive to device size.
+* The active pages always has a buttom border under the page name
 
 ![Navigation Menu](docs/readme-images/navigation.jpg)
 
@@ -78,7 +79,7 @@ View the live site [here](https://benohene.github.io/youth-aflame-sc-project/)
 
 ![Contact details](docs/readme-images/contact-details.jpg)
 
-* SIGN UP PAGE
+# SIGN UP PAGE
 
 ### Sign-up form
 * The form allows visitors who want to join the group easy access to do that without travelling to our office.
@@ -100,13 +101,13 @@ View the live site [here](https://benohene.github.io/youth-aflame-sc-project/)
 # DESIGN
 ## Wireframe
 
-## Homepage
+### Homepage
 ![Home page](docs/readme-images/home-wireframenew.png)
 
-## Contact Page
+### Contact Page
 ![Contact page](docs/readme-images/contaact-witeframe.png)
 
-## Sign-up page 
+### Sign-up page 
 ![Sign up page](docs/readme-images/signup-wireframe.png)
 
 # TECHNOLOGIES APPLIED
